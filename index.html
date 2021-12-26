@@ -17,22 +17,27 @@
 
       <nav id="nav-bar">
         <ul>
-          <li class="nav-link">Features</li>
-          <li class="nav-link">How It Works</li>
-          <li class="nav-link">Pricing</li>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#video-container">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
         </ul>
       </nav>
     </header>
 
     <div class="form">
-      <form action="https://www.freecodecamp.com/email-submit">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
         <h2>Handcrafted, home-made masterpieces</h2>
-        <input type="email" placeholder="Enter your email address" />
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Enter your email address"
+        />
         <input type="submit" id="submit" value="Get Started" />
       </form>
     </div>
 
-    <div class="features">
+    <div id="features">
       <div class="card">
         <img
           src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRlfy5qkxS6unDyCzIqDLK5IfjZXl1FqrXnwfY7GrbDJtT_SzVq"
@@ -73,8 +78,9 @@
         </div>
       </div>
     </div>
-    <div class="video">
+    <div id="video-container">
       <iframe
+        id="video"
         width="560"
         height="315"
         src="https://www.youtube.com/embed/UUc__WvXcn4"
@@ -85,36 +91,44 @@
       ></iframe>
     </div>
 
-    <div id = "pricing">
-      
+    <div id="pricing">
       <div class="card">
         <h2>TENOR TROMBONE</h2>
-        <P>$600</P>
-        <P>Lorem ipsum</P>
-        <P>Lorem ipsum</P>
-        <P>Lorem ipsum</P>
-        <P>Lorem ipsum</P>
+        <p>$600</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
         <button>Select</button>
       </div>
       <div class="card">
         <h2>TENOR TROMBONE</h2>
-        <P>$600</P>
-        <P>Lorem ipsum</P>
-        <P>Lorem ipsum</P>
-        <P>Lorem ipsum</P>
-        <P>Lorem ipsum</P>
+        <p>$600</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
         <button>Select</button>
       </div>
       <div class="card">
         <h2>TENOR TROMBONE</h2>
-        <P>$600</P>
-        <P>Lorem ipsum</P>
-        <P>Lorem ipsum</P>
-        <P>Lorem ipsum</P>
-        <P>Lorem ipsum</P>
+        <p>$600</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
         <button>Select</button>
       </div>
     </div>
+
+    <footer>
+      <nav>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+      </nav>
+      <p>Copyright 2016, Original Trombones</p>
+    </footer>
     <script src="js/index.js"></script>
   </body>
 </html>
