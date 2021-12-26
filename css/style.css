@@ -1,0 +1,28 @@
+#header {
+  width: 95%;
+  position: fixed;
+  justify-content: space-between;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
+#header > img {
+  display: inline-block;
+  width: 500px;
+}
+
+#nav-bar {
+  flex-grow: 1;
+  max-width: 25%;
+  min-height: 70px;
+}
+
+#nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-bar ul li {
+  display: inline;
+}
