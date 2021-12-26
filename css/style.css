@@ -69,6 +69,29 @@ body {
   margin: 0 auto;
 }
 
+#pricing {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#pricing .pcard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 20%;
+  margin: 0 10px;
+  border: 1px solid black;
+}
+#pricing .pcard h2,
+p {
+  text-align: center;
+}
+#pricing .pcard button {
+  margin: 0 auto;
+}
+
 @media (max-width: 768px) {
   header {
     flex-wrap: wrap;
